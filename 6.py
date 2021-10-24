@@ -8,7 +8,7 @@ trial = 0 # initialise and set trial variable
 GuessRange = list(range(1, UserRange +1 )) # create range of numbers 
 SecretNumber = random.choice(GuessRange) # use the random module and the choice function to get a number
 while True: # initialise and create loop 
-    UserNumber = int(input("Enter your number = ")) # Enter you guess 
+    UserNumber = int(input("Enter your number = ")) # Enter your guess 
     trial +=1 # increase trial by one 
     if SecretNumber == UserNumber:
         print("Congrats , Winner ", "you won at the {} time".format(trial))
