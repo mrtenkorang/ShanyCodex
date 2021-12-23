@@ -11,7 +11,7 @@ def prime(num: int) -> bool:  # returns a boolean value
 
     # big question,what is a prime number
     prime_flag = True
-    count_divisible = 0
+   
     for v in range(2, num):
         if num % v == 0:
             prime_flag = False
