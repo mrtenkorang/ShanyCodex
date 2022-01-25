@@ -6,6 +6,8 @@ You are required to write a computer solution to determine the smallest number o
 could have had and the total cost if the boy claims that he paid 4 pesewas per egg.  """
 
 
+
+
 if __name__ == '__main__':
     eggCount = 0 # create a count variable and start with zero
     while True: # Search for the number with this infinite loop
@@ -21,3 +23,4 @@ if __name__ == '__main__':
                             if eggCount%7==0: #until the last and if it qualifies, you break the loop and print the number.
                                 print("egg count = ",eggCount, " <===> total cost of egg = ",eggCount*0.4,"Cedis")
                                 break
+# Not the best of attempts 
