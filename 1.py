@@ -21,3 +21,7 @@ def maximumAndMininum(*numbers):
 
 if __name__ == '__main__':
     print(maximumAndMininum(1,2,4,5,6,7,8,6543,2,3,5,6,4,3))
+
+
+
+# MaxMin . 100
