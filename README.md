@@ -1,2 +1,2 @@
 # ShanyCodex
-Repo to random algorithmic coding challenges 
+Random algorithmic coding challenges 
